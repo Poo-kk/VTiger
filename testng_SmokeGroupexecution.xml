@@ -13,7 +13,5 @@
 			<class name="testCaseRepo.TC_005" />
 			<class name="testCaseRepo.TC_004" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> 
+</suite> 

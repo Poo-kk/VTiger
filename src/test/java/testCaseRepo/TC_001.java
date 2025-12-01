@@ -23,11 +23,10 @@ public class TC_001 extends BaseClass{
 		hp.clickOnLeadsMenu();
 		LeadsPage lep=new LeadsPage(driver);
 		lep.clickOnCreateNewLeadIcon();
-		if(i<3) {
-			i++;
-			Assert.fail();	
-		}
-
+//		if(i<3) {
+//			i++;
+//			Assert.fail();	
+//		}
 		String fName=eUtil.getSingleCellDataFromExcel("Leads",1,1);
 		String lName=eUtil.getSingleCellDataFromExcel("Leads", 1, 2);
 		String company=eUtil.getSingleCellDataFromExcel("Leads", 1, 3);

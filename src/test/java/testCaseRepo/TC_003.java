@@ -30,9 +30,9 @@ public class TC_003 extends BaseClass {
 		Thread.sleep(2000);
 
 	}
-//		@Test
-//		public void m1() {
-//			System.out.println("Welcome to selenium class");
-//		}
+		@Test
+		public void m1() {
+			System.out.println("Welcome to selenium class");
+		}
 }
 
